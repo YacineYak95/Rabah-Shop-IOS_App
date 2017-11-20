@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CE2DEB613A4441191571CE9 /* Pods_RabahTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E39783BF3BA011795087874B /* Pods_RabahTests.framework */; };
+		204CA9C0AE4F88C65CB804C7 /* Pods_Rabah.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D659D8DA16613A0CCF709DD6 /* Pods_Rabah.framework */; };
+		510417C91D3ECF48008E0256 /* PdfReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510417C81D3ECF48008E0256 /* PdfReader.swift */; };
+		510B13071D3FCB4E008C32A7 /* Commande.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510B13061D3FCB4E008C32A7 /* Commande.swift */; };
+		51493A641D3524C8000265ED /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51493A631D3524C8000265ED /* LoginController.swift */; };
+		516EB71F1D24073D000A486E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516EB71E1D24073D000A486E /* AppDelegate.swift */; };
+		519AF1F61D23301100FF0EC3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519AF1F51D23301100FF0EC3 /* Post.swift */; };
+		51B750451D36486D00BC4ECE /* PostsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B750441D36486D00BC4ECE /* PostsController.swift */; };
+		51ECFBF21D36CC7700E0ACDB /* DetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51ECFBF11D36CC7700E0ACDB /* DetailsController.swift */; };
+		51ECFBF41D36F33400E0ACDB /* CommandeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51ECFBF31D36F33400E0ACDB /* CommandeController.swift */; };
+		51ECFBFE1D37A00000E0ACDB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51ECFBFD1D37A00000E0ACDB /* GoogleService-Info.plist */; };
+		EA38D1121989FA2700F0A786 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA38D1111989FA2700F0A786 /* Images.xcassets */; };
+		EA38D11E1989FA2700F0A786 /* JSONDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA38D11D1989FA2700F0A786 /* JSONDemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA38D1181989FA2700F0A786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA38D0FD1989FA2700F0A786 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA38D1041989FA2700F0A786;
+			remoteInfo = JSONDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16A501D54FBDA13CA3752334 /* Pods-e-commerce CPA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-commerce CPA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-e-commerce CPA/Pods-e-commerce CPA.debug.xcconfig"; sourceTree = "<group>"; };
+		1772B4A4EE9BE6E5D2E92D23 /* Pods-RabahTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RabahTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RabahTests/Pods-RabahTests.release.xcconfig"; sourceTree = "<group>"; };
+		510417C81D3ECF48008E0256 /* PdfReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PdfReader.swift; sourceTree = "<group>"; };
+		510B13061D3FCB4E008C32A7 /* Commande.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commande.swift; sourceTree = "<group>"; };
+		51493A631D3524C8000265ED /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		516EB71E1D24073D000A486E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		519AF1F51D23301100FF0EC3 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		51B750441D36486D00BC4ECE /* PostsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsController.swift; sourceTree = "<group>"; };
+		51ECFBF11D36CC7700E0ACDB /* DetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsController.swift; sourceTree = "<group>"; };
+		51ECFBF31D36F33400E0ACDB /* CommandeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandeController.swift; sourceTree = "<group>"; };
+		51ECFBFD1D37A00000E0ACDB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5760786AF492225576EF5C59 /* Pods-e_commerce CPATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e_commerce CPATests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-e_commerce CPATests/Pods-e_commerce CPATests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C7CBAEAFAEF370EF93621DA /* Pods-e_commerce CPA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e_commerce CPA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-e_commerce CPA/Pods-e_commerce CPA.debug.xcconfig"; sourceTree = "<group>"; };
+		A800127A328501D9307ADA4D /* Pods-e-commerce CPA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-commerce CPA.release.xcconfig"; path = "Pods/Target Support Files/Pods-e-commerce CPA/Pods-e-commerce CPA.release.xcconfig"; sourceTree = "<group>"; };
+		AA34DE46C600864FB93CCAF2 /* Pods-RabahTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RabahTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RabahTests/Pods-RabahTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4A3C118DB94074EE1237659 /* Pods-e_commerce CPATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e_commerce CPATests.release.xcconfig"; path = "Pods/Target Support Files/Pods-e_commerce CPATests/Pods-e_commerce CPATests.release.xcconfig"; sourceTree = "<group>"; };
+		C3C0105C9BF299C1FE7FDF4C /* Pods-Rabah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rabah.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rabah/Pods-Rabah.release.xcconfig"; sourceTree = "<group>"; };
+		D5C588DF3257163196974EA4 /* Pods-e_commerce CPA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e_commerce CPA.release.xcconfig"; path = "Pods/Target Support Files/Pods-e_commerce CPA/Pods-e_commerce CPA.release.xcconfig"; sourceTree = "<group>"; };
+		D659D8DA16613A0CCF709DD6 /* Pods_Rabah.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rabah.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E39783BF3BA011795087874B /* Pods_RabahTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RabahTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA38D1051989FA2700F0A786 /* Rabah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rabah.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA38D1091989FA2700F0A786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA38D1111989FA2700F0A786 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA38D1171989FA2700F0A786 /* Rabah.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rabah.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA38D11C1989FA2700F0A786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA38D11D1989FA2700F0A786 /* JSONDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDemoTests.swift; sourceTree = "<group>"; };
+		EB259CAA3065CE4FFFD4AF8D /* Pods-Rabah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rabah.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rabah/Pods-Rabah.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA38D1021989FA2700F0A786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204CA9C0AE4F88C65CB804C7 /* Pods_Rabah.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA38D1141989FA2700F0A786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE2DEB613A4441191571CE9 /* Pods_RabahTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2804CF3B246B868B71964F94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16A501D54FBDA13CA3752334 /* Pods-e-commerce CPA.debug.xcconfig */,
+				A800127A328501D9307ADA4D /* Pods-e-commerce CPA.release.xcconfig */,
+				EB259CAA3065CE4FFFD4AF8D /* Pods-Rabah.debug.xcconfig */,
+				C3C0105C9BF299C1FE7FDF4C /* Pods-Rabah.release.xcconfig */,
+				AA34DE46C600864FB93CCAF2 /* Pods-RabahTests.debug.xcconfig */,
+				1772B4A4EE9BE6E5D2E92D23 /* Pods-RabahTests.release.xcconfig */,
+				9C7CBAEAFAEF370EF93621DA /* Pods-e_commerce CPA.debug.xcconfig */,
+				D5C588DF3257163196974EA4 /* Pods-e_commerce CPA.release.xcconfig */,
+				5760786AF492225576EF5C59 /* Pods-e_commerce CPATests.debug.xcconfig */,
+				B4A3C118DB94074EE1237659 /* Pods-e_commerce CPATests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		51ACE26C1D2807A8001DB48A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				51493A631D3524C8000265ED /* LoginController.swift */,
+				51B750441D36486D00BC4ECE /* PostsController.swift */,
+				51ECFBF11D36CC7700E0ACDB /* DetailsController.swift */,
+				51ECFBF31D36F33400E0ACDB /* CommandeController.swift */,
+				51ECFBFD1D37A00000E0ACDB /* GoogleService-Info.plist */,
+				510417C81D3ECF48008E0256 /* PdfReader.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		51ACE26D1D2807C5001DB48A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				519AF1F51D23301100FF0EC3 /* Post.swift */,
+				510B13061D3FCB4E008C32A7 /* Commande.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A6979B12DDDB45B8724358E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D659D8DA16613A0CCF709DD6 /* Pods_Rabah.framework */,
+				E39783BF3BA011795087874B /* Pods_RabahTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA38D0FC1989FA2700F0A786 = {
+			isa = PBXGroup;
+			children = (
+				EA38D1071989FA2700F0A786 /* CPA */,
+				EA38D11A1989FA2700F0A786 /* CPATests */,
+				EA38D1061989FA2700F0A786 /* Products */,
+				2804CF3B246B868B71964F94 /* Pods */,
+				A6979B12DDDB45B8724358E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA38D1061989FA2700F0A786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA38D1051989FA2700F0A786 /* Rabah.app */,
+				EA38D1171989FA2700F0A786 /* Rabah.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA38D1071989FA2700F0A786 /* CPA */ = {
+			isa = PBXGroup;
+			children = (
+				51ACE26D1D2807C5001DB48A /* Model */,
+				51ACE26C1D2807A8001DB48A /* Controllers */,
+				516EB71E1D24073D000A486E /* AppDelegate.swift */,
+				EA38D1111989FA2700F0A786 /* Images.xcassets */,
+				EA38D1081989FA2700F0A786 /* Supporting Files */,
+			);
+			name = CPA;
+			path = JSONDemo;
+			sourceTree = "<group>";
+		};
+		EA38D1081989FA2700F0A786 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA38D1091989FA2700F0A786 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA38D11A1989FA2700F0A786 /* CPATests */ = {
+			isa = PBXGroup;
+			children = (
+				EA38D11D1989FA2700F0A786 /* JSONDemoTests.swift */,
+				EA38D11B1989FA2700F0A786 /* Supporting Files */,
+			);
+			name = CPATests;
+			path = JSONDemoTests;
+			sourceTree = "<group>";
+		};
+		EA38D11B1989FA2700F0A786 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA38D11C1989FA2700F0A786 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA38D1041989FA2700F0A786 /* Rabah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA38D1211989FA2700F0A786 /* Build configuration list for PBXNativeTarget "Rabah" */;
+			buildPhases = (
+				202AF24E9A470D3A8549AC71 /* [CP] Check Pods Manifest.lock */,
+				EA38D1011989FA2700F0A786 /* Sources */,
+				EA38D1021989FA2700F0A786 /* Frameworks */,
+				EA38D1031989FA2700F0A786 /* Resources */,
+				89F5600D5EB93F52AED89350 /* [CP] Embed Pods Frameworks */,
+				CD876C4A238CFAB1DEFD9077 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rabah;
+			productName = JSONDemo;
+			productReference = EA38D1051989FA2700F0A786 /* Rabah.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA38D1161989FA2700F0A786 /* RabahTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA38D1241989FA2700F0A786 /* Build configuration list for PBXNativeTarget "RabahTests" */;
+			buildPhases = (
+				6A54A40002A26BF9C8420238 /* [CP] Check Pods Manifest.lock */,
+				EA38D1131989FA2700F0A786 /* Sources */,
+				EA38D1141989FA2700F0A786 /* Frameworks */,
+				EA38D1151989FA2700F0A786 /* Resources */,
+				29FAFAF8E213F620DA2A5AAB /* [CP] Embed Pods Frameworks */,
+				3C53B39C0520D741A763642E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA38D1191989FA2700F0A786 /* PBXTargetDependency */,
+			);
+			name = RabahTests;
+			productName = JSONDemoTests;
+			productReference = EA38D1171989FA2700F0A786 /* Rabah.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA38D0FD1989FA2700F0A786 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "TheAppGuruz-New-6";
+				TargetAttributes = {
+					EA38D1041989FA2700F0A786 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 9F8UHQN8Q6;
+					};
+					EA38D1161989FA2700F0A786 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = EA38D1041989FA2700F0A786;
+					};
+				};
+			};
+			buildConfigurationList = EA38D1001989FA2700F0A786 /* Build configuration list for PBXProject "Rabah" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA38D0FC1989FA2700F0A786;
+			productRefGroup = EA38D1061989FA2700F0A786 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA38D1041989FA2700F0A786 /* Rabah */,
+				EA38D1161989FA2700F0A786 /* RabahTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA38D1031989FA2700F0A786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA38D1121989FA2700F0A786 /* Images.xcassets in Resources */,
+				51ECFBFE1D37A00000E0ACDB /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA38D1151989FA2700F0A786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		202AF24E9A470D3A8549AC71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		29FAFAF8E213F620DA2A5AAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RabahTests/Pods-RabahTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C53B39C0520D741A763642E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RabahTests/Pods-RabahTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A54A40002A26BF9C8420238 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89F5600D5EB93F52AED89350 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rabah/Pods-Rabah-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD876C4A238CFAB1DEFD9077 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rabah/Pods-Rabah-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA38D1011989FA2700F0A786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516EB71F1D24073D000A486E /* AppDelegate.swift in Sources */,
+				510B13071D3FCB4E008C32A7 /* Commande.swift in Sources */,
+				51ECFBF41D36F33400E0ACDB /* CommandeController.swift in Sources */,
+				51ECFBF21D36CC7700E0ACDB /* DetailsController.swift in Sources */,
+				51493A641D3524C8000265ED /* LoginController.swift in Sources */,
+				519AF1F61D23301100FF0EC3 /* Post.swift in Sources */,
+				51B750451D36486D00BC4ECE /* PostsController.swift in Sources */,
+				510417C91D3ECF48008E0256 /* PdfReader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA38D1131989FA2700F0A786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA38D11E1989FA2700F0A786 /* JSONDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA38D1191989FA2700F0A786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA38D1041989FA2700F0A786 /* Rabah */;
+			targetProxy = EA38D1181989FA2700F0A786 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA38D11F1989FA2700F0A786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA38D1201989FA2700F0A786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA38D1221989FA2700F0A786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB259CAA3065CE4FFFD4AF8D /* Pods-Rabah.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/Headers",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseDatabase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleInterchangeUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleNetworkingUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleParsingUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleSymbolUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleUtilities\"",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = JSONDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tag.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Rabah;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "JSONDemo/e-commerce CPA-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA38D1231989FA2700F0A786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C0105C9BF299C1FE7FDF4C /* Pods-Rabah.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/Headers",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseDatabase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleInterchangeUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleNetworkingUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleParsingUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleSymbolUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleUtilities\"",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = JSONDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tag.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Rabah;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "JSONDemo/e-commerce CPA-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		EA38D1251989FA2700F0A786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA34DE46C600864FB93CCAF2 /* Pods-RabahTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JSONDemo.app/JSONDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JSONDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tag.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Rabah;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		EA38D1261989FA2700F0A786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1772B4A4EE9BE6E5D2E92D23 /* Pods-RabahTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JSONDemo.app/JSONDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JSONDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tag.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Rabah;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA38D1001989FA2700F0A786 /* Build configuration list for PBXProject "Rabah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA38D11F1989FA2700F0A786 /* Debug */,
+				EA38D1201989FA2700F0A786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA38D1211989FA2700F0A786 /* Build configuration list for PBXNativeTarget "Rabah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA38D1221989FA2700F0A786 /* Debug */,
+				EA38D1231989FA2700F0A786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA38D1241989FA2700F0A786 /* Build configuration list for PBXNativeTarget "RabahTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA38D1251989FA2700F0A786 /* Debug */,
+				EA38D1261989FA2700F0A786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA38D0FD1989FA2700F0A786 /* Project object */;
+}
